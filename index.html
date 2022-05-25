@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2020/06/04/13/22/square-5258734_960_720.png" type="image/x-icon">
+    <meta name="robots" content="index,follow"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript, DOM">
+    <meta name="author" content="Guadalupe Monge Barale">
+    <meta name="description" content="Proyecto de practica JavaScript y Manipulación del DOM. Permite calcular el area y perimetro de diferentes figuras geométricas" />
+    <meta name="image" content="./images-readme/math-javascript.png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@guaditaemprende" />
+    <meta name="twitter:creator" content="@guaditaemprende" />
+    <meta property="og:url" content="https://github.com/GuadaMongeBarale/math-javascript" />
+    <meta property="og:title" content="Calculadora de Figuras Geométricas" />
+    
+    
+    <title>Math with JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/desktop.css"  media="screen and (min-width: 800px)" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://github.com/GuadaMongeBarale" rel="noopener noreferrer" target="_blank"><img src="https://cdn.pixabay.com/photo/2015/11/03/08/53/calculator-1019743_960_720.jpg" alt="calcualdora"></a>
+            <a href="index.html">Home</a>
+        </nav>
+        <h1> Calculadora de Figuras Geométricas</h1>       
+    </header>
+    <main>
+        
+        <section class="buttons">
+            <button type="button" class="square" onclick="draw('square')"></button>
+            <button type="button" class="triangle" onclick="draw('triangle')"></button>
+            <button type="button" class="circle" onclick="draw('circle')" ></button>
+        </section>
+
+        <section class="calculator">
+            
+        </section>
+        
+    </main>
+
+    <script src="./js/figures.js"></script>
+</body>
+</html>

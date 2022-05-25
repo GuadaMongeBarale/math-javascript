@@ -1,0 +1,152 @@
+:root {
+    --primary-color: rgba(36,48,155,1);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+html {
+    font-size: 62.5%;
+}
+
+h1,
+header nav a {    
+    font-weight: bold;
+    color: var(--primary-color);
+}
+h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+nav a {
+    align-self: center;
+}
+nav img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 240px;
+    grid-template-rows: repeat(3,240px);
+    gap:35px;
+    place-content: center;
+    grid-auto-flow: row;
+    margin-top: 45px;
+}
+
+.buttons button {
+    cursor: pointer;
+    border-radius: 20px;
+    border:none;
+
+    -webkit-box-shadow: 0px 0px 5px 10px var(--primary-color);
+    -moz-box-shadow: 0px 0px 5px 10px var(--primary-color);
+    box-shadow: 0px 0px 5px 10px var(--primary-color);
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.square {
+    background-image: url('https://cdn.pixabay.com/photo/2020/06/04/13/22/square-5258734_960_720.png');
+}
+.circle {
+    background-image: url('https://cdn.pixabay.com/photo/2020/06/04/13/22/cicle-5258733_960_720.png');
+}
+.triangle {
+    background-image: url('https://cdn.pixabay.com/photo/2020/06/04/13/22/triangle-5258735_960_720.png');
+}
+
+.calculator {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+
+    place-self: center;
+
+    margin-top: 30px;
+}
+
+.calculator figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.calculator img {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+}
+
+.calculator p {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.calculator input {
+    align-self: center;
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    border: 5px solid var(--primary-color);
+    outline: none;
+    padding-left:10px;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.calculator button,
+.button {
+    width: 70%;
+    max-width: 400px;
+    height: 50px;
+
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+
+    align-self: center;
+
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(184, 28, 28);
+    text-align: center;
+}

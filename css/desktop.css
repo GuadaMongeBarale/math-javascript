@@ -1,0 +1,27 @@
+nav {
+    padding: 20px 30px 20px 30px;
+}
+
+.buttons {
+    grid-template-columns: repeat(3,230px);
+    grid-template-rows: 230px;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+.buttons button:hover {
+
+    -webkit-box-shadow: 0px 0px 5px 10px rgb(235, 15, 26);;
+    -moz-box-shadow: 0px 0px 5px 10px rgb(235, 15, 26);
+    box-shadow: 0px 0px 5px 10px rgb(235, 15, 26);
+
+    -webkit-transform:scale(1.1);transform:scale(1.1);   
+}
+
+.calculator button:hover,
+.button:hover {
+    background-color: rgb(235, 15, 26);
+}
+
